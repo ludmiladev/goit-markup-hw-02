@@ -1,0 +1,1112 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет фона #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* футер текст rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона футера #2F303A */
+/* цвет фона чем мы занимаемся rgba(47, 48, 58, 0.8) */
+
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-text-color: #ffffff;
+}
+body {
+  background-color: var(--secondary-text-color);
+  color: var(--titel-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+/*стилизация логотипа*/
+.logotip {
+  position: absolute;
+  width: 153px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
+/*стилизация навигации сайта*/
+.nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+}
+.nav-studia {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  text-decoration: none;
+}
+.nav-portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  text-decoration: none;
+}
+.nav-contact {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  text-decoration: none;
+}
+.svjaz {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.email {
+  position: absolute;
+  width: 161px;
+  height: 16px;
+  left: 1052px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--titel-text-color);
+  text-decoration: none;
+}
+.phone {
+  position: absolute;
+  width: 142px;
+  height: 16px;
+  left: 1243px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #f5f4fa;
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.nav-studia:hover,
+.logotip {
+  color: var(--accent-color);
+}
+.nav-portfolio:hover,
+.nav-portfolio:focus {
+  color: var(--accent-color);
+}
+.nav-contact:hover,
+.nav-contact:focus {
+  color: var(--accent-color);
+}
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+/*Эффективные решения для вашего бизнеса*/
+.text-geroj {
+  color: var(--secondary-text-color);
+  background: rgba(47, 48, 58, 0.8);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* Button */
+.button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/*секция преимущества*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.preimushestva {
+  position: absolute;
+  width: 270px;
+  height: 120px;
+  top: 774px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.microscop {
+  left: 215px;
+}
+.chasi {
+  left: 515px;
+}
+.noutbyck {
+  left: 815px;
+}
+.cosmonavt {
+  left: 1115px;
+}
+.preimushestva-h3 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  top: 924px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.preimushestva-text {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  top: 950px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*cтилизация h2 - заголовков второго уровня*/
+.h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*стилизация секции: чем мы занимаемся*/
+.zanatie {
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 1119px;
+}
+.zanatie-img {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  top: 1211px;
+}
+.desktop {
+  left: 215px;
+  background: url(2910404jpg);
+}
+.smartfon {
+  left: 615px;
+  background: url(realistic-smartphone-mockup-clean-smartphone-mockup_88130-54.jpg);
+  mix-blend-mode: normal;
+}
+.pk {
+  left: 1015px;
+  background: url(111jpg);
+}
+.fon {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  left: 215px;
+  top: 1435px;
+  background: rgba(47, 48, 58, 0.8);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.fon-desktop {
+  left: 215px;
+}
+.fon-smartfon {
+  left: 615px;
+}
+.fon-pk {
+  left: 1015px;
+}
+/*cекция наша команда*/
+.comanda {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1693px;
+}
+.photo {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  top: 1785px;
+  border-radius: 0px;
+}
+.nikol {
+  left: 215px;
+  background: url(h1-team-img-4.jpg);
+}
+.olga {
+  left: 515px;
+  background: url(team-img-2.jpg);
+}
+.andrej {
+  left: 815px;
+  background: url(team-img-3.jpg);
+}
+.ivan {
+  left: 1115px;
+  background: url(team-img-4.jpg);
+}
+.comanda-h4 {
+  position: absolute;
+  height: 19px;
+  top: 2075px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.fio-nicolaj {
+  width: 157px;
+  left: 272px;
+}
+.fio-olga {
+  width: 270px;
+  left: 515px;
+}
+.fio-andrej {
+  width: 144px;
+  left: 878px;
+}
+.fio-ivan {
+  width: 122px;
+  left: 1189px;
+}
+.prof {
+  position: absolute;
+  height: 19px;
+  top: 2104px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.prof-nicolaj {
+  width: 130px;
+  left: 285px;
+}
+.prof-olga {
+  width: 147px;
+  left: 577px;
+}
+.prof-andrej {
+  width: 76px;
+  left: 912px;
+}
+.prof-ivan {
+  width: 87px;
+  left: 1207px;
+}
+/* постоянные клиенты*/
+.clienti {
+  position: absolute;
+  width: 390px;
+  height: 42px;
+  left: 606px;
+  top: 2395px;
+}
+.social-links {
+  position: absolute;
+  width: 206px;
+  height: 24px;
+  top: 2139px;
+}
+.nicolaj-instagram {
+  left: 147px;
+}
+.nicolaj-twitter {
+  left: 207px;
+}
+.nicolaj-facebook {
+  left: 267px;
+}
+.nicolaj-linkedln {
+  left: 327px;
+}
+.olga-instagram {
+  left: 437px;
+}
+.olga-twitter {
+  left: 497px;
+}
+.olga-facebook {
+  left: 557px;
+}
+.olga-linkedln {
+  left: 617px;
+}
+.andrej-instagram {
+  left: 737px;
+}
+.andrej-twitter {
+  left: 787px;
+}
+.andrej-facebook {
+  left: 847px;
+}
+.andrej-linkedln {
+  left: 897px;
+}
+.ivan-instagram {
+  left: 1067px;
+}
+.ivan-twitter {
+  left: 1117px;
+}
+.ivan-facebook {
+  left: 1167px;
+}
+.ivan-linkedln {
+  left: 1217px;
+}
+/*стилизация секций*/
+.section-title {
+  color: var(--title-text-color);
+}
+/*стилизация постоянные клиенты*/
+.fon-clienta {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  top: 2487px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.fon-1 {
+  left: 215px;
+}
+.fon-2 {
+  left: 415px;
+}
+.fon-3 {
+  left: 615px;
+}
+.fon-4 {
+  left: 815px;
+}
+.fon-5 {
+  left: 1015px;
+}
+.fon-6 {
+  left: 1215px;
+}
+.client {
+  position: absolute;
+  width: 59px;
+  height: 47px;
+  left: 1071px;
+  top: 2509px;
+}
+.logo-1 {
+  left: 271px;
+}
+.logo-2 {
+  left: 471px;
+}
+.logo-3 {
+  left: 671px;
+}
+.logo-4 {
+  left: 871px;
+}
+.logo-5 {
+  left: 1071px;
+}
+.logo-6 {
+  left: 1271px;
+}
+/*cтилизация footer*/
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 1px;
+  top: 2671px;
+  background: #2f303a;
+}
+.logotip-footer {
+  position: absolute;
+  width: 153px;
+  height: 31px;
+  left: 215px;
+  top: 71px;
+}
+.address {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 122px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contact-footer {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-prisoedenajtes {
+  position: absolute;
+  width: 145px;
+  height: 16px;
+  left: 515px;
+  top: 61px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-instagram {
+  position: absolute;
+  width: 90px;
+  height: 16px;
+  left: 515px;
+  top: 61px;
+}
+
+/*стилизация кнопок*/
+.button {
+  color: var(--secondary-text-color);
+  background: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+.menu-portfolio {
+  position: absolute;
+  height: 26px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+/*стилизация портфолио*/
+.vse {
+  width: 29px;
+  left: 517px;
+  top: 180px;
+
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.veb {
+  width: 84px;
+  left: 598px;
+  top: 180px;
+
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.prilogenia {
+  width: 101px;
+  left: 734px;
+  top: 180px;
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.dizajn {
+  width: 59px;
+  left: 887px;
+  top: 180px;
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.markening {
+  width: 86px;
+  left: 998px;
+  top: 180px;
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.tehnokrak {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 262px;
+  background: rgba(33, 150, 243, 0.9);
+}
+.poster {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 262px;
+  background: url(portfolio2.jpg);
+}
+.restoran {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 262px;
+  background: url(portfolio-1.jpg);
+}
+.prime {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 696px;
+  background: url(portfolio-2.jpg);
+}
+.boxes {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 696px;
+
+  background: url(portfolio5.jpg);
+}
+.inspiration {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 696px;
+  background: url(111jpg);
+}
+.izdanie {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1130px;
+
+  background: url(portfolio7.jpg);
+}
+.lab {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1130px;
+
+  background: url(portfolio8.jpg);
+}
+.growing {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1130px;
+  background: url(2910404jpg);
+}
+.h3-tehnokrak {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.h3-poster {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 576px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.h3-restoran {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 576px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.h3-prime {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 1010px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.h3-boxes {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 1010px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.h3-inspiration {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 1010px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.h3-izdanie {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 1444px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.h3-lab {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 1444px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.h3-growing {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 1444px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.vebsity {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.dizain {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 616px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.prilogenie-restoran {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 616px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.marceting {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 1050px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.prilogenie-bohes {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 1050px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.veb-sity {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 1050px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.limited {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 1484px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.marcetihg-lab {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 1484px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.prilogenie-growing {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 1484px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+
+  background: #2f303a;
+}
+.address {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 214px;
+  top: 1739px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.portfolio-prisoedenajtes {
+  position: absolute;
+  width: 145px;
+  height: 16px;
+  left: 514px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.podpiska {
+  position: absolute;
+  width: 219px;
+  height: 16px;
+  left: 814px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.h1h2-portfolio {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.email-portfolio {
+}
