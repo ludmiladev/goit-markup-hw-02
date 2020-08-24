@@ -55,6 +55,15 @@ ul {
   left: 552px;
   top: 32px;
   text-decoration: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
 }
 .nav-contact {
   position: absolute;
@@ -101,7 +110,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #f5f4fa;
+  color: var(--titel-text-color);
   text-decoration: none;
 }
 
@@ -112,6 +121,7 @@ ul {
   color: var(--accent-color);
 }
 .nav-studia:hover,
+.nav-studia:focus,
 .logotip {
   color: var(--accent-color);
 }
@@ -132,16 +142,34 @@ ul {
   color: var(--accent-color);
 }
 /*Эффективные решения для вашего бизнеса*/
-.text-geroj {
+.oblast-geroj {
   color: var(--secondary-text-color);
   background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+.text-geroj {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
   font-family: Roboto;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 100px;
+  line-height: 60px;
+  /* or 136% */
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  color: #ffffff;
 }
 /* Button */
 .button {
@@ -154,6 +182,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
 /*секция преимущества*/
 .section-title {
   font-weight: 700;
@@ -368,6 +397,8 @@ ul {
   height: 42px;
   left: 606px;
   top: 2395px;
+
+  color: #212121;
 }
 .social-links {
   position: absolute;
@@ -1044,15 +1075,6 @@ ul {
 
   color: #757575;
 }
-.footer {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
-
-  background: #2f303a;
-}
 .address {
   position: absolute;
   width: 231px;
@@ -1109,4 +1131,13 @@ ul {
   overflow: hidden;
 }
 .email-portfolio {
+}
+.nav-glavnyj {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
 }
