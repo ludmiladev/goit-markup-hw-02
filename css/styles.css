@@ -15,7 +15,7 @@
 }
 body {
   background-color: var(--secondary-text-color);
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -38,7 +38,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
 }
 .nav-studia {
   position: absolute;
@@ -63,7 +63,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .nav-contact {
   position: absolute;
@@ -95,7 +95,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
   text-decoration: none;
 }
 .phone {
@@ -110,7 +110,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--titel-text-color);
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
@@ -169,7 +169,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 /* Button */
 .button {
@@ -178,7 +178,7 @@ ul {
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196f3;
+  color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -222,7 +222,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .preimushestva-text {
   position: absolute;
@@ -235,7 +235,7 @@ ul {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /*cтилизация h2 - заголовков второго уровня*/
 .h2 {
@@ -246,7 +246,7 @@ ul {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 /*стилизация секции: чем мы занимаемся*/
 .zanatie {
@@ -302,6 +302,7 @@ ul {
   left: 1015px;
 }
 /*cекция наша команда*/
+
 .comanda {
   position: absolute;
   width: 264px;
@@ -398,7 +399,7 @@ ul {
   left: 606px;
   top: 2395px;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .social-links {
   position: absolute;
@@ -518,6 +519,7 @@ ul {
   height: 252px;
   left: 1px;
   top: 2671px;
+
   background: #2f303a;
 }
 .logotip-footer {
@@ -532,14 +534,14 @@ ul {
   width: 231px;
   height: 21px;
   left: 215px;
-  top: 122px;
+  top: 2782px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 .contact-footer {
   position: absolute;
@@ -566,7 +568,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 .footer-instagram {
   position: absolute;
@@ -580,14 +582,17 @@ ul {
 .button {
   color: var(--secondary-text-color);
   background: var(--accent-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.06em;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 510px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   text-decoration: none;
 }
+
 .menu-portfolio {
   position: absolute;
   height: 26px;
@@ -803,7 +808,7 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .h3-prime {
   position: absolute;
@@ -821,7 +826,7 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .h3-boxes {
   position: absolute;
@@ -839,7 +844,7 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .h3-inspiration {
   position: absolute;
@@ -857,7 +862,7 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .h3-izdanie {
   position: absolute;
@@ -875,7 +880,7 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .h3-lab {
   position: absolute;
@@ -893,7 +898,7 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .h3-growing {
   position: absolute;
@@ -911,7 +916,7 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .vebsity {
   position: absolute;
@@ -947,7 +952,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .prilogenie-restoran {
   position: absolute;
@@ -965,7 +970,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .marceting {
   position: absolute;
@@ -983,7 +988,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .prilogenie-bohes {
   position: absolute;
@@ -1001,7 +1006,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .veb-sity {
   position: absolute;
@@ -1019,7 +1024,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .limited {
   position: absolute;
@@ -1037,7 +1042,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .marcetihg-lab {
   position: absolute;
@@ -1055,7 +1060,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .prilogenie-growing {
   position: absolute;
@@ -1073,7 +1078,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .address {
   position: absolute;
@@ -1091,7 +1096,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 .portfolio-prisoedenajtes {
   position: absolute;
@@ -1107,7 +1112,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 .podpiska {
   position: absolute;
@@ -1123,9 +1128,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
-.h1h2-portfolio {
+.zaglav-portfolio {
   width: 0;
   height: 0;
   overflow: hidden;
@@ -1139,5 +1144,16 @@ ul {
   left: 0px;
   top: 0px;
 
-  background: #ffffff;
+  color: var(--secondary-text-color);
+}
+.button-portfolio {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 1184px;
+  top: 1736px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
