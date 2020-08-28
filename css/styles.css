@@ -40,8 +40,8 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+
   color: var(--title-text-color);
 }
 
@@ -66,8 +66,8 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+
 
   color: var(--title-text-color);
 }
@@ -86,8 +86,8 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+
   color: var(--primary-text-color);
 }
 
@@ -102,8 +102,8 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -118,8 +118,8 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -180,11 +180,11 @@ ul {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   /* or 136% */
 
-  text-align: center;
-  letter-spacing: 0.06em;
+
+
   text-transform: uppercase;
 
   color: var(--secondary-text-color);
@@ -207,7 +207,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
+
 }
 
 .preimushestva {
@@ -244,8 +244,8 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+
   text-transform: uppercase;
   color: var(--title-text-color);
 }
@@ -259,8 +259,8 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
+
   color: var(--primary-text-color);
 }
 
@@ -270,9 +270,8 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+
   color: var(--title-text-color);
 }
 
@@ -319,9 +318,8 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
@@ -384,9 +382,9 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+
+
   color: #212121;
 }
 
@@ -418,9 +416,9 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+
+
   color: #757575;
 }
 
@@ -627,8 +625,8 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
+
   color: var(--secondary-text-color);
 }
 
@@ -640,8 +638,8 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.8;
+
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -655,8 +653,8 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
@@ -692,9 +690,9 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
+
+
   position: absolute;
   width: 128px;
   height: 38px;
@@ -885,10 +883,10 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: #212121;
 }
@@ -907,7 +905,7 @@ a:active {
   line-height: 36px;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: #212121;
 }
@@ -923,10 +921,10 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: var(--title-text-color);
 }
@@ -942,10 +940,10 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: var(--title-text-color);
 }
@@ -961,10 +959,10 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: var(--title-text-color);
 }
@@ -980,10 +978,10 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: var(--title-text-color);
 }
@@ -999,10 +997,10 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: var(--title-text-color);
 }
@@ -1018,10 +1016,10 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: var(--title-text-color);
 }
@@ -1037,10 +1035,10 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+
 
   color: var(--title-text-color);
 }
@@ -1056,10 +1054,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: #757575;
 }
@@ -1075,10 +1073,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--primary-text-color);
 }
@@ -1094,10 +1092,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--primary-text-color);
 }
@@ -1113,10 +1111,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--primary-text-color);
 }
@@ -1132,10 +1130,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--primary-text-color);
 }
@@ -1151,10 +1149,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--primary-text-color);
 }
@@ -1170,10 +1168,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--primary-text-color);
 }
@@ -1189,10 +1187,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--primary-text-color);
 }
@@ -1208,10 +1206,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--primary-text-color);
 }
@@ -1227,10 +1225,10 @@ a:active {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
 
-  letter-spacing: 0.03em;
+
 
   color: var(--secondary-text-color);
 }
@@ -1245,8 +1243,8 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+
   text-transform: uppercase;
 
   color: var(--secondary-text-color);
@@ -1262,8 +1260,8 @@ a:active {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+
   text-transform: uppercase;
 
   color: var(--secondary-text-color);
