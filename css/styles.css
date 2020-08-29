@@ -30,7 +30,7 @@ ul {
   position: absolute;
   width: 153px;
   height: 31px;
-  left: 215px;
+  left: 200px;
   top: 24px;
 }
 
@@ -126,7 +126,8 @@ ul {
 
 .nav-studia:hover,
 .nav-studia:focus,
-.logotip {
+.web-logotip,
+.studio-logotip {
   color: var(--accent-color);
 }
 
@@ -136,7 +137,9 @@ ul {
 }
 
 .nav-contact:hover,
-.nav-contact:focus {
+.nav-contact:focus,
+.web-logotip,
+.studio-logotip {
   color: var(--accent-color);
 }
 
@@ -178,35 +181,27 @@ ul {
 }
 
 /* Button */
-.button {
+.button-stydia {
   position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  color: var(--accent-color);
+
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
 }
 
 .zakazat {
 
-  width: 136px;
-  height: 30px;
+  width: 200px;
+  height: 50px;
   left: 732px;
-  top: 440px;
+  top: 520px;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
+  line-height: ;
 
   align-items: center;
   text-align: center;
@@ -253,7 +248,7 @@ ul {
   position: absolute;
   width: 270px;
   height: 16px;
-  top: 924px;
+  top: 774px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -267,7 +262,7 @@ ul {
   position: absolute;
   width: 270px;
   height: 75px;
-  top: 950px;
+  top: 800px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -284,6 +279,7 @@ ul {
   font-size: 36px;
   line-height: 1.2;
   color: var(--title-text-color);
+  top: 1543px;
 }
 
 /*стилизация секции: чем мы занимаемся*/
@@ -292,14 +288,14 @@ ul {
   width: 376px;
   height: 42px;
   left: 612px;
-  top: 1050px;
+  top: 969px;
 }
 
 .zanatie-img {
   position: absolute;
   width: 370px;
   height: 294px;
-  top: 1211px;
+  top: 1061px;
 }
 
 .desktop {
@@ -353,18 +349,18 @@ ul {
   width: 264px;
   height: 42px;
   left: 668px;
-  top: 1600px;
+  top: 1543px;
 }
 
 .photo {
   position: absolute;
   width: 270px;
   height: 260px;
-  top: 1785px;
+  top: 1635px;
   border-radius: 0px;
 }
 
-.nikol {
+.igor {
   left: 215px;
   background: url(h1-team-img-4.jpg);
 }
@@ -374,12 +370,12 @@ ul {
   background: url(team-img-2.jpg);
 }
 
-.andrej {
+.nikolaj {
   left: 815px;
   background: url(team-img-3.jpg);
 }
 
-.ivan {
+.mihail {
   left: 1115px;
   background: url(team-img-4.jpg);
 }
@@ -387,18 +383,19 @@ ul {
 .comanda-h4 {
   position: absolute;
   height: 19px;
-  top: 2075px;
+  top: 1925px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: #212121;
+  text-align: center;
 }
 
-.fio-nicolaj {
-  width: 157px;
-  left: 272px;
+.fio-igor {
+  width: 270px;
+  left: 215px;
 }
 
 .fio-olga {
@@ -406,20 +403,20 @@ ul {
   left: 515px;
 }
 
-.fio-andrej {
+.fio-nikolaj {
   width: 144px;
   left: 878px;
 }
 
-.fio-ivan {
-  width: 122px;
-  left: 1189px;
+.fio-mihail {
+  width: 154px;
+  left: 1183px;
 }
 
 .prof {
   position: absolute;
   height: 19px;
-  top: 2104px;
+  top: 1954px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -428,8 +425,8 @@ ul {
   color: #757575;
 }
 
-.prof-nicolaj {
-  width: 130px;
+.prof-igor {
+  width: 150px;
   left: 285px;
 }
 
@@ -438,168 +435,22 @@ ul {
   left: 577px;
 }
 
-.prof-andrej {
+.prof-nikolaj {
   width: 76px;
   left: 912px;
 }
 
-.prof-ivan {
+.prof-mihail {
   width: 87px;
   left: 1207px;
 }
 
-/* постоянные клиенты*/
-.clienti {
-  position: absolute;
-  width: 390px;
-  height: 42px;
-  left: 606px;
-  top: 2300px;
-  color: var(--title-text-color);
-}
-
-.social-links {
-  position: absolute;
-  width: 206px;
-  height: 24px;
-  top: 2139px;
-}
-
-.nicolaj-instagram {
-  left: 147px;
-}
-
-.nicolaj-twitter {
-  left: 207px;
-}
-
-.nicolaj-facebook {
-  left: 267px;
-}
-
-.nicolaj-linkedln {
-  left: 327px;
-}
-
-.olga-instagram {
-  left: 437px;
-}
-
-.olga-twitter {
-  left: 497px;
-}
-
-.olga-facebook {
-  left: 557px;
-}
-
-.olga-linkedln {
-  left: 617px;
-}
-
-.andrej-instagram {
-  left: 737px;
-}
-
-.andrej-twitter {
-  left: 787px;
-}
-
-.andrej-facebook {
-  left: 847px;
-}
-
-.andrej-linkedln {
-  left: 897px;
-}
-
-.ivan-instagram {
-  left: 1067px;
-}
-
-.ivan-twitter {
-  left: 1117px;
-}
-
-.ivan-facebook {
-  left: 1167px;
-}
-
-.ivan-linkedln {
-  left: 1217px;
-}
 
 /*стилизация секций*/
 .section-title {
   color: var(--title-text-color);
 }
 
-/*стилизация постоянные клиенты*/
-.fon-clienta {
-  position: absolute;
-  width: 170px;
-  height: 90px;
-  top: 2487px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-
-.fon-1 {
-  left: 215px;
-}
-
-.fon-2 {
-  left: 415px;
-}
-
-.fon-3 {
-  left: 615px;
-}
-
-.fon-4 {
-  left: 815px;
-}
-
-.fon-5 {
-  left: 1015px;
-}
-
-.fon-6 {
-  left: 1215px;
-}
-
-.client {
-  position: absolute;
-  width: 59px;
-  height: 47px;
-  left: 1071px;
-  top: 2509px;
-}
-
-.logo-1 {
-  left: 271px;
-}
-
-.logo-2 {
-  left: 471px;
-}
-
-.logo-3 {
-  left: 671px;
-}
-
-.logo-4 {
-  left: 871px;
-}
-
-.logo-5 {
-  left: 1071px;
-}
-
-.logo-6 {
-  left: 1271px;
-}
 
 /*cтилизация footer*/
 .footer {
@@ -607,7 +458,7 @@ ul {
   width: 1600px;
   height: 252px;
   left: 0px;
-  top: 1628px;
+  top: 2097px;
   background: #2f303a;
 }
 
@@ -668,7 +519,7 @@ ul {
   line-height: 1.7;
   position: absolute;
   border: none;
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .menu-portfolio:hover {
@@ -677,9 +528,6 @@ ul {
 
 }
 
-.menu-portfolio:active {
-  color: yellow;
-}
 
 /*стилизация портфолио*/
 a {
@@ -1209,4 +1057,42 @@ a:active {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.studio-logotip {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 275px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.web-logotip {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196F3;
 }
