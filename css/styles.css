@@ -77,15 +77,6 @@ ul {
   text-decoration: none;
 }
 
-.svjaz {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  color: var(--primary-text-color);
-}
-
 .email {
   position: absolute;
   width: 161px;
@@ -426,7 +417,7 @@ ul {
 }
 
 .prof-igor {
-  width: 150px;
+  width: 130px;
   left: 285px;
 }
 
