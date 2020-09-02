@@ -4,7 +4,6 @@
 /* белый цвет #ffffff */
 /* вторичный цвет фона #2F303A */
 
-
 :root {
   --title-text-color: #212121;
   --primary-text-color: #757575;
@@ -12,7 +11,6 @@
   --primary-gov-color: #ffffff;
   --secondary-bg-color: #2f303a;
 }
-
 
 body {
   font-family: Roboto, sans-serif;
@@ -42,7 +40,7 @@ button:focus {
 
 a {
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 header {
